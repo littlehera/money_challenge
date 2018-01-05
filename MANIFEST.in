@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include money_challenge *.css
+recursive-include money_challenge *.csv
+recursive-include money_challenge *.html
+recursive-include money_challenge *.ico
+recursive-include money_challenge *.js
+recursive-include money_challenge *.json
+recursive-include money_challenge *.md
+recursive-include money_challenge *.png
+recursive-include money_challenge *.py
+recursive-include money_challenge *.svg
+recursive-include money_challenge *.txt
+recursive-exclude money_challenge *.pyc
